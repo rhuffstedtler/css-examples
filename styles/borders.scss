@@ -1,0 +1,12 @@
+.image-border {
+  padding: 1em;
+  border: 2em solid transparent;
+  background: linear-gradient(white, white),
+             url(images/oakland-sunset.jpg);
+  background-size: cover;
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+  resize: both;
+  max-width: 400px;
+  overflow: hidden;
+}

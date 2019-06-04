@@ -1,0 +1,9 @@
+@import "../1-settings/_layout.scss";
+
+.inner-content-wrap {
+  max-width: 690px;
+  margin: 0 auto;
+  //This is to allow the responsive callouts to be absolutely 
+  //positioned
+  position: relative;
+}
